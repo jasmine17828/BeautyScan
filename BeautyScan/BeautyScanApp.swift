@@ -10,8 +10,6 @@ import SwiftUI
 @main
 struct BeautyScanApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        WindowGroup { HomeView() }
     }
 }
